@@ -1,0 +1,123 @@
+/* Name: Fares Mohamed. For this project, we were required to do create a movie review using two files, tmnt.html and movie.css. */ 
+/* movie.css: The file contains all stylings and appearance of the page, tmnt.html. Those stylings are taken from the description listed in the project description file */ 
+body { 
+	background-image: url("images/background.png");
+	font-size: 8pt;
+	font-family: Verdana, Tahoma, sans-serif;
+	margin: 0pt;
+	padding: 0px;
+}
+
+.banner {
+	background-image: url("images/bannerbg.png");
+	background-repeat: repeat-x;
+	height: 50px;
+}
+
+#header {
+	font-size: 24pt;
+	font-style: bold;
+	font-family: Tahoma, Verdana, sans-serif;
+	text-align: center;
+	text-shadow: 3px 3px #999999;
+}
+
+.content-area {
+	width: 800px;
+	border: 4px gray;
+	border-style: solid;
+	border-radius: 20px;
+	margin: auto;	
+	overflow: hidden;
+}
+
+#rotten  {
+	width: 550px;
+	float: left;
+}
+
+.img img {
+	vertical-align: bottom;
+	height: 83px;
+
+}
+
+.img {
+	width: 550px;
+	background-image: url("images/rbg.png");
+	background-repeat: repeat-x;
+	font-size: 48pt;
+	font-weight: bold;
+	color: red;
+}
+
+.reviews{
+    width: 258px;   /* 550 * 0.47 = 258.5 */ 
+    margin-left: 2%;
+    float: left;
+}
+
+.quote{
+	font-size: 8pt;
+    font-weight: bold;
+    background-color: #E8DC9B;
+    border: 2px gray;
+    border-style: solid;
+    border-radius: 10px;
+    padding: 8px;
+    overflow: hidden;
+}
+
+.person {
+	font-style: italic;
+	margin-right: 5px;
+	margin-bottom: 20pt;
+}
+
+.reviews img {
+	margin-right: 5px;
+	float: left;
+}
+
+.overview {
+	float: right;
+	background-color: #A2B964;
+	width: 250px;
+	font-size: 8pt;
+	font-family: Arial, sans-serif;
+}
+
+#overview {
+	background-color: #A2B964;
+	width: 250px;
+	font-size: 8pt;
+	font-family: Arial, sans-serif;
+	text-align: left;
+}
+
+#style {
+	margin: 10pt;
+	text-align: left;
+}
+
+dt {
+	font-weight: bold;
+	margin-top: 10 pt;
+}
+
+ul {
+	list-style-type: none;
+	padding: 0px;
+}
+
+dd {
+	padding-bottom: 10px;
+}
+
+#endline {
+	background-color: #A2B964;
+	text-align: center;
+	padding: 5px;
+	margin: 0pt;
+	clear: both;
+}
