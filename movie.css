@@ -1,21 +1,22 @@
-/* Name: Fares Mohamed. For this project, we were required to do create a movie review using two files, tmnt.html and movie.css. */ 
-/* movie.css: The file contains all stylings and appearance of the page, tmnt.html. Those stylings are taken from the description listed in the project description file */ 
+/* Name: Fares Mohamed. For this project, we were required to do create a dynamic movie review using PHP  */ 
+/* movie.css: The file contains all stylings and appearance of the page, movie.php. Those stylings are taken from the description listed in the project description file */ 
 body { 
 	background-image: url("images/background.png");
-	font-size: 8pt;
 	font-family: Verdana, Tahoma, sans-serif;
 	margin: 0pt;
 	padding: 0px;
+	font-size: 8pt;
 }
 
 .banner {
 	background-image: url("images/bannerbg.png");
-	background-repeat: repeat-x;
 	height: 50px;
+	background-repeat: repeat-x;
+	text-align: center;
 }
 
 #header {
-	font-size: 24pt;
+	font-size: 12pt;
 	font-style: bold;
 	font-family: Tahoma, Verdana, sans-serif;
 	text-align: center;
@@ -72,6 +73,7 @@ body {
 	font-style: italic;
 	margin-right: 5px;
 	margin-bottom: 20pt;
+	font-size: 8pt;
 }
 
 .reviews img {
@@ -120,4 +122,5 @@ dd {
 	padding: 5px;
 	margin: 0pt;
 	clear: both;
+	font-size: 8pt;
 }
