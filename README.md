@@ -1,2 +1,2 @@
 # Movie-Review-
-A Movie Review on TMNT using HTML and CSS.
+A Dynamic Movie Review for four movies using HTML, CSS, and PHP.
